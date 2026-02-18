@@ -37,7 +37,7 @@ library(tidyverse)
 Today we will work with wind speed data. 
 
 ```{r}
-
+getwd()
 #Importing time series data from text file#
 wind_data <- read.csv(file="./Data/Wind_Speed_PortArthurTX_Processed.csv",header=TRUE,stringsAsFactors = TRUE)
 
